@@ -1,0 +1,111 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Club Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Welcome to our Club Website</h1>
+</header>
+
+<section class="clubs">
+  <div class="club" id="club1">Football</div>
+  <div class="club" id="club2">Basketball</div>
+  <div class="club" id="club3">Tennis</div>
+  <div class="club" id="club4">Swimming</div>
+</section>
+
+<footer>
+  <p>Contact us at: example@example.com</p>
+</footer>
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close" id="closeButton">&times;</span>
+    <h2 id="popupTitle"></h2>
+    <p id="popupDescription"></p>
+    <button id="registerButton">Register</button>
+  </div>
+</div>
+
+<!-- <div id="registrationFormPopup" class="popup">
+  <div class="popup-content">
+    <span class="close" id="registrationFormCloseButton">&times;</span>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="gender">Gender:</label><br>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br>
+      <label for="description">Description:</label><br>
+      <textarea id="description" name="description" rows="4"></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div> 
+
+
+ Registration Form Popup 
+<div id="registrationFormPopup" class="popup">
+  <div class="popup-content">
+    <span class="close" id="registrationFormCloseButton">&times;</span>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+      <label for="registrationId">Registration ID:</label><br>
+      <input type="text" id="registrationId" name="registrationId"><br>
+      <label for="motive">Motive:</label><br>
+      <textarea id="motive" name="motive" rows="6"></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="registration-container">
+  <h2>Welcome to our Club!</h2>
+  <p>We're excited to have you join us. Please fill out the registration form below:</p>
+  <form id="registrationForm">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div class="form-group">
+      <label for="registrationId">Registration ID:</label>
+      <input type="text" id="registrationId" name="registrationId" required>
+    </div>
+    <div class="form-group">
+      <label for="department">Department:</label>
+      <input type="text" id="department" name="department" required>
+    </div>
+    <div class="form-group">
+      <label for="motive">Motive (Why are you joining?):</label>
+      <textarea id="motive" name="motive" rows="4" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
